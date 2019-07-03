@@ -6,7 +6,9 @@
     "start": "forever start ./bin/www",
     "stop": "forever stop ./bin/www",
     "dev": "nodemon ./bin/www --ignore data/",
-    "deploy": "npm stop && git pull && npm start"
+    "deploy": "npm stop && git pull && npm start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
@@ -17,6 +19,8 @@
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
     "pug": "2.0.0-beta11",
-    "socket.io": "^2.1.1"
-  }
+    "socket.io": "^2.1.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
