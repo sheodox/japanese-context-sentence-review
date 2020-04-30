@@ -8,7 +8,9 @@
     "dev": "nodemon ./bin/www --ignore data/",
     "build": "webpack --mode production",
     "build-dev": "webpack --mode development",
-    "deploy": "npm stop && git pull && npm i && npm run build && npm start"
+    "deploy": "npm stop && git pull && npm i && npm run build && npm start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
@@ -29,6 +31,8 @@
     "svelte": "^3.18.2",
     "svelte-loader": "^2.13.6",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
-  }
+    "webpack-cli": "^3.3.10",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
