@@ -13,7 +13,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "cookie-parser": "~1.4.3",
-    "copy-webpack-plugin": "^5.1.1",
+    "copy-webpack-plugin": "^6.0.0",
     "css-loader": "^3.4.2",
     "debug": "~2.6.9",
     "express": "~4.16.0",
