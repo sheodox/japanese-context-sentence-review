@@ -8,7 +8,9 @@
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "build-extension": "webpack --mode development --config-name extension",
-    "deploy": "npm stop && git pull && npm i && npm run build && npm start"
+    "deploy": "npm stop && git pull && npm i && npm run build && npm start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -42,9 +44,11 @@
     "web-ext": "^4.3.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
-    "webpack-manifest-plugin": "^2.2.0"
+    "webpack-manifest-plugin": "^2.2.0",
+    "snyk": "^1.361.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "snyk": true
 }
