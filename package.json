@@ -41,7 +41,7 @@
     "svelte": "^3.22.3",
     "svelte-loader": "^2.13.6",
     "vue": "^2.6.11",
-    "web-ext": "^4.3.0",
+    "web-ext": "^5.0.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-manifest-plugin": "^2.2.0"
