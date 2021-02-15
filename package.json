@@ -32,7 +32,7 @@
     "express-session": "^1.17.1",
     "file-loader": "^5.0.2",
     "glob": "^7.1.6",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "http-errors": "~1.6.2",
     "jsonwebtoken": "^8.5.1",
     "morgan": "~1.9.0",
