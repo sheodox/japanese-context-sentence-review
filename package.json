@@ -40,7 +40,7 @@
     "passport-google-oauth": "^2.0.0",
     "pg": "^8.2.1",
     "prom-client": "^12.0.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "redis": "^3.0.2",
     "sass": "^1.32.5",
     "sass-loader": "^8.0.2",
